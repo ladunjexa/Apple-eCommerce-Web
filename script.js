@@ -138,11 +138,11 @@ const hideControl = () => {
   );
   $(".watch-right-control").toggleClass(
     "hideControl",
-    axisY === 280 ? true : false
+    axisX === 280 ? true : false
   );
   $(".watch-left-control").toggleClass(
     "hideControl",
-    axisY === -280 ? true : false
+    axisX === -280 ? true : false
   );
 };
 $(".watch-top-control").on("click", () => {
